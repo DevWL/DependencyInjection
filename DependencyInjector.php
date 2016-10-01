@@ -1,6 +1,4 @@
-Dependency Injector Design Pattern
-
-```
+<?php 
 
 class DependencyInjector
 {
@@ -108,5 +106,3 @@ var_dump($db2); // Object
  * List all available services
  */
 // $container->listServices();
-
-```
