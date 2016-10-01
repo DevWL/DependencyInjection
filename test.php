@@ -11,7 +11,6 @@ $container = new DependencyInjector();
 /**
  * Standard Use
  */
-$test = 1;
 
 $container->setService('db_config',['setup'=>'mysql:host=localhost;dbname=test;charset=utf8mb4', 'user'=>'root', 'password'=>'', 'settings'=>[PDO::ATTR_EMULATE_PREPARES => false, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]]);
 
